@@ -9,8 +9,8 @@ terraform {
 
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIATF2EW5PS5CRGRQ4S"
-    secret_key = "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"
+    access_key = ""
+    secret_key = ""
 }
 
 module "vpc"{
@@ -24,7 +24,7 @@ module "vpc"{
     //enable_nat_gateway = true
     tags = {
         Environment = "dev"
-        Author = "rajat.gupta03@nagarro.com"
+        Author = "rajat.gupta03"
 
     }
 }
